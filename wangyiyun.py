@@ -3,15 +3,13 @@
 # @Time    : 2019/11/27 8:54
 # @Author  : z.g
 
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# @Time    : 2019/11/26 21:33
-# @Author  : z.g
 import requests
 from lxml import html
 
 # 抖音排行榜链接
-url = 'https://music.163.com/playlist?id=2250011882'
+# url = 'https://music.163.com/playlist?id=2250011882'
+# 热歌榜
+url = 'https://music.163.com/playlist?id=3778678'
 # 外链转换链接（https://link.hhtjim.com/）
 base_url = 'https://link.hhtjim.com/163/'
 
